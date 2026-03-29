@@ -102,7 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               CustomCard(onTap: _reset, text: "Zero"),
               CustomCard(onTap: _incrementCounter, text: "Tap to add 1"),
-              CustomCard(onLongPress: _copyCounter, text: "Tap to copy"),
+              CustomCard(onLongPress: _copyCounter, text: "Long press to copy"),
             ],
           ),
         ],
