@@ -1,0 +1,32 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "long_press_on_mobile_web",
+			"request": "launch",
+			"type": "dart"
+		},
+		{
+			"name": "long_press_on_mobile_web (profile mode)",
+			"request": "launch",
+			"type": "dart",
+			"flutterMode": "profile"
+		},
+		{
+			"name": "long_press_on_mobile_web (release mode)",
+			"request": "launch",
+			"type": "dart",
+			"flutterMode": "release"
+		},
+		{
+			"name": "web_server",
+			"request": "launch",
+			"type":"dart",
+			"flutterMode": "debug",
+			"args": [ "--web-port","8100", "--wasm"]
+		}
+	]
+}
